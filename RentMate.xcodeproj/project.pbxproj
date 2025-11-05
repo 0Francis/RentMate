@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7AA61D62EB8FFA2003D6025 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E7AA61D52EB8FFA2003D6025 /* FirebaseAnalytics */; };
+		E7AA61D82EB8FFA2003D6025 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = E7AA61D72EB8FFA2003D6025 /* FirebaseAppCheck */; };
+		E7AA61DA2EB8FFA2003D6025 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E7AA61D92EB8FFA2003D6025 /* FirebaseAuth */; };
+		E7AA61DC2EB8FFA2003D6025 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = E7AA61DB2EB8FFA2003D6025 /* FirebaseCore */; };
+		E7AA61DE2EB8FFA2003D6025 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E7AA61DD2EB8FFA2003D6025 /* FirebaseDatabase */; };
+		E7AA61E02EB8FFA2003D6025 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E7AA61DF2EB8FFA2003D6025 /* FirebaseFirestore */; };
+		E7AA61E22EB8FFA2003D6025 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E7AA61E12EB8FFA2003D6025 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7AA61B82EB8FE48003D6025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7AA619F2EB8FE46003D6025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7AA61A62EB8FE46003D6025;
+			remoteInfo = RentMate;
+		};
+		E7AA61C22EB8FE48003D6025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7AA619F2EB8FE46003D6025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7AA61A62EB8FE46003D6025;
+			remoteInfo = RentMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7AA61A72EB8FE46003D6025 /* RentMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7AA61B72EB8FE48003D6025 /* RentMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7AA61C12EB8FE48003D6025 /* RentMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E7CFC4F32EBA2219002D1C03 /* Exceptions for "RentMate" folder in "RentMate" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Utils/Extensions.swift,
+				Views/UIStyles/ColorTheme.swift,
+			);
+			target = E7AA61A62EB8FE46003D6025 /* RentMate */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		E7CFC4F42EBA2219002D1C03 /* Exceptions for "RentMate" folder in "Copy Bundle Resources" phase from "RentMate" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = E7AA61A52EB8FE46003D6025 /* Resources */;
+			membershipExceptions = (
+				Utils/Extensions.swift,
+				Views/UIStyles/ColorTheme.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E7AA61A92EB8FE46003D6025 /* RentMate */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E7CFC4F32EBA2219002D1C03 /* Exceptions for "RentMate" folder in "RentMate" target */,
+				E7CFC4F42EBA2219002D1C03 /* Exceptions for "RentMate" folder in "Copy Bundle Resources" phase from "RentMate" target */,
+			);
+			path = RentMate;
+			sourceTree = "<group>";
+		};
+		E7AA61BA2EB8FE48003D6025 /* RentMateTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RentMateTests;
+			sourceTree = "<group>";
+		};
+		E7AA61C42EB8FE48003D6025 /* RentMateUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RentMateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7AA61A42EB8FE46003D6025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AA61DE2EB8FFA2003D6025 /* FirebaseDatabase in Frameworks */,
+				E7AA61D82EB8FFA2003D6025 /* FirebaseAppCheck in Frameworks */,
+				E7AA61DA2EB8FFA2003D6025 /* FirebaseAuth in Frameworks */,
+				E7AA61DC2EB8FFA2003D6025 /* FirebaseCore in Frameworks */,
+				E7AA61E22EB8FFA2003D6025 /* FirebaseStorage in Frameworks */,
+				E7AA61D62EB8FFA2003D6025 /* FirebaseAnalytics in Frameworks */,
+				E7AA61E02EB8FFA2003D6025 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AA61B42EB8FE48003D6025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AA61BE2EB8FE48003D6025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7AA619E2EB8FE46003D6025 = {
+			isa = PBXGroup;
+			children = (
+				E7AA61A92EB8FE46003D6025 /* RentMate */,
+				E7AA61BA2EB8FE48003D6025 /* RentMateTests */,
+				E7AA61C42EB8FE48003D6025 /* RentMateUITests */,
+				E7AA61A82EB8FE46003D6025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7AA61A82EB8FE46003D6025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7AA61A72EB8FE46003D6025 /* RentMate.app */,
+				E7AA61B72EB8FE48003D6025 /* RentMateTests.xctest */,
+				E7AA61C12EB8FE48003D6025 /* RentMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7AA61A62EB8FE46003D6025 /* RentMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7AA61CB2EB8FE48003D6025 /* Build configuration list for PBXNativeTarget "RentMate" */;
+			buildPhases = (
+				E7AA61A32EB8FE46003D6025 /* Sources */,
+				E7AA61A42EB8FE46003D6025 /* Frameworks */,
+				E7AA61A52EB8FE46003D6025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E7AA61A92EB8FE46003D6025 /* RentMate */,
+			);
+			name = RentMate;
+			packageProductDependencies = (
+				E7AA61D52EB8FFA2003D6025 /* FirebaseAnalytics */,
+				E7AA61D72EB8FFA2003D6025 /* FirebaseAppCheck */,
+				E7AA61D92EB8FFA2003D6025 /* FirebaseAuth */,
+				E7AA61DB2EB8FFA2003D6025 /* FirebaseCore */,
+				E7AA61DD2EB8FFA2003D6025 /* FirebaseDatabase */,
+				E7AA61DF2EB8FFA2003D6025 /* FirebaseFirestore */,
+				E7AA61E12EB8FFA2003D6025 /* FirebaseStorage */,
+			);
+			productName = RentMate;
+			productReference = E7AA61A72EB8FE46003D6025 /* RentMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7AA61B62EB8FE48003D6025 /* RentMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7AA61CE2EB8FE48003D6025 /* Build configuration list for PBXNativeTarget "RentMateTests" */;
+			buildPhases = (
+				E7AA61B32EB8FE48003D6025 /* Sources */,
+				E7AA61B42EB8FE48003D6025 /* Frameworks */,
+				E7AA61B52EB8FE48003D6025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7AA61B92EB8FE48003D6025 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E7AA61BA2EB8FE48003D6025 /* RentMateTests */,
+			);
+			name = RentMateTests;
+			packageProductDependencies = (
+			);
+			productName = RentMateTests;
+			productReference = E7AA61B72EB8FE48003D6025 /* RentMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7AA61C02EB8FE48003D6025 /* RentMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7AA61D12EB8FE48003D6025 /* Build configuration list for PBXNativeTarget "RentMateUITests" */;
+			buildPhases = (
+				E7AA61BD2EB8FE48003D6025 /* Sources */,
+				E7AA61BE2EB8FE48003D6025 /* Frameworks */,
+				E7AA61BF2EB8FE48003D6025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7AA61C32EB8FE48003D6025 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E7AA61C42EB8FE48003D6025 /* RentMateUITests */,
+			);
+			name = RentMateUITests;
+			packageProductDependencies = (
+			);
+			productName = RentMateUITests;
+			productReference = E7AA61C12EB8FE48003D6025 /* RentMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7AA619F2EB8FE46003D6025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E7AA61A62EB8FE46003D6025 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E7AA61B62EB8FE48003D6025 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E7AA61A62EB8FE46003D6025;
+					};
+					E7AA61C02EB8FE48003D6025 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E7AA61A62EB8FE46003D6025;
+					};
+				};
+			};
+			buildConfigurationList = E7AA61A22EB8FE46003D6025 /* Build configuration list for PBXProject "RentMate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7AA619E2EB8FE46003D6025;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E7AA61D42EB8FFA2003D6025 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E7AA61A82EB8FE46003D6025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7AA61A62EB8FE46003D6025 /* RentMate */,
+				E7AA61B62EB8FE48003D6025 /* RentMateTests */,
+				E7AA61C02EB8FE48003D6025 /* RentMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7AA61A52EB8FE46003D6025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AA61B52EB8FE48003D6025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AA61BF2EB8FE48003D6025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7AA61A32EB8FE46003D6025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AA61B32EB8FE48003D6025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AA61BD2EB8FE48003D6025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7AA61B92EB8FE48003D6025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7AA61A62EB8FE46003D6025 /* RentMate */;
+			targetProxy = E7AA61B82EB8FE48003D6025 /* PBXContainerItemProxy */;
+		};
+		E7AA61C32EB8FE48003D6025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7AA61A62EB8FE46003D6025 /* RentMate */;
+			targetProxy = E7AA61C22EB8FE48003D6025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7AA61C92EB8FE48003D6025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7AA61CA2EB8FE48003D6025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7AA61CC2EB8FE48003D6025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.RentMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7AA61CD2EB8FE48003D6025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.RentMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7AA61CF2EB8FE48003D6025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.RentMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RentMate";
+			};
+			name = Debug;
+		};
+		E7AA61D02EB8FE48003D6025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.RentMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RentMate";
+			};
+			name = Release;
+		};
+		E7AA61D22EB8FE48003D6025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.RentMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RentMate;
+			};
+			name = Debug;
+		};
+		E7AA61D32EB8FE48003D6025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.RentMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RentMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7AA61A22EB8FE46003D6025 /* Build configuration list for PBXProject "RentMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AA61C92EB8FE48003D6025 /* Debug */,
+				E7AA61CA2EB8FE48003D6025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7AA61CB2EB8FE48003D6025 /* Build configuration list for PBXNativeTarget "RentMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AA61CC2EB8FE48003D6025 /* Debug */,
+				E7AA61CD2EB8FE48003D6025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7AA61CE2EB8FE48003D6025 /* Build configuration list for PBXNativeTarget "RentMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AA61CF2EB8FE48003D6025 /* Debug */,
+				E7AA61D02EB8FE48003D6025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7AA61D12EB8FE48003D6025 /* Build configuration list for PBXNativeTarget "RentMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AA61D22EB8FE48003D6025 /* Debug */,
+				E7AA61D32EB8FE48003D6025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E7AA61D42EB8FFA2003D6025 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7AA61D52EB8FFA2003D6025 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7AA61D42EB8FFA2003D6025 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		E7AA61D72EB8FFA2003D6025 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7AA61D42EB8FFA2003D6025 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		E7AA61D92EB8FFA2003D6025 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7AA61D42EB8FFA2003D6025 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E7AA61DB2EB8FFA2003D6025 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7AA61D42EB8FFA2003D6025 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		E7AA61DD2EB8FFA2003D6025 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7AA61D42EB8FFA2003D6025 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E7AA61DF2EB8FFA2003D6025 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7AA61D42EB8FFA2003D6025 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E7AA61E12EB8FFA2003D6025 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7AA61D42EB8FFA2003D6025 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E7AA619F2EB8FE46003D6025 /* Project object */;
+}
