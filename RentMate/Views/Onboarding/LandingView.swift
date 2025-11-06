@@ -62,7 +62,11 @@ struct LandingView: View {
                         Button("I Already Have an Account") {
                             showLogin = true
                         }
-                        .buttonStyle(SecondaryButtonStyle())
+                        .font(.headline)
+                        .foregroundColor(Color.rentMateBlueDeep)
+                        .padding(.top, 8)
+                        .padding(.bottom, 4)
+                        .italic()
                         
                         Button("Explore as Guest") {
                             signInAsGuest()
